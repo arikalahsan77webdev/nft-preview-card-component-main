@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+$SoftBlue: hsl(215, 51%, 70%);
+$Cyan: hsl(178, 100%, 50%);
+$VerydarkblueMainBG: hsl(217, 54%, 11%);
+$VerydarkblueCardBG: hsl(216, 50%, 16%);
+$VerydarkBlueline: hsl(215, 32%, 27%);
+$White: hsl(0, 0%, 100%);
+html,body{
+    height: 100%;
+}
+body{
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $VerydarkblueMainBG;
+    color: #fff;
+}
+.area{
+    background-color:$VerydarkblueCardBG;
+    width: 350px;
+    height: auto;
+    padding: 20px;
+    border-radius: 20px;
+
+
+    .child_area{
+        .head_img{
+        border-radius: 17px;
+        width: 100%;
+     
+        
+        
+    }
+    .nice{
+        position: relative;
+    }
+    .view{
+        position: absolute;
+        width: 100%;
+        background-color: $Cyan;
+      
+        .ee {
+            width: 80px;
+           
+        
+            &:hover {
+         
+            }
+        }
+        
+
+    }  
+}
+}
+.text_area{
+    padding: 10px;
+
+    h3{
+    font-size: 18px;
+    margin-bottom: 5px ;
+    color: #ddd;
+    }
+    p{
+        margin-bottom: 6px;
+        color: $SoftBlue;
+    }
+    span{
+        display: inline-block;
+        font-size: 15px;
+        display: inline;
+    }
+    .text_right{
+        color: $Cyan;
+    }
+    .text_left{
+        margin-left: 95px;
+        color: $SoftBlue;
+    }
+    img{
+        position: relative;
+        top: 3px;
+        margin-right: 4px;
+    }
+    hr{
+        color: $SoftBlue;
+        margin-top: 15px;
+        padding: 0 160px;
+        margin-left: -15px;
+        border:  0.2px solid $SoftBlue;
+    }
+}
+.man_img{
+ .man_imgg{
+            width: 28px; 
+            border: 1px solid $White;  
+            border-radius: 50%;   
+        }
+ p{
+    display: inline-block;
+    top: -9px;
+    padding: 0 6px;
+    font-size: 15px;
+    position: relative;
+    
+    span{
+        color: $SoftBlue;
+    }
+ }
+}
